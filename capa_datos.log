@@ -1,0 +1,653 @@
+2021-04-20 21:02:34,952: WARNING [logger_base.py: 12] Esto es una advertencia
+09:45:22: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f53aec0be80; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:45:22: PM: INFO [conexion.py: 33] <connection object at 0x7f53aec0be80; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:54:20: PM: ERROR [conexion.py: 41] Error al obtener el cursor: 'NoneType' object has no attribute 'obtenerConexion'
+09:54:49: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f68dbf4ae80; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:54:49: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f68dbcd9b80; closed: 0>
+09:54:49: PM: INFO [conexion.py: 46] <cursor object at 0x7f68dbcd9b80; closed: 0>
+10:02:03: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7fe6fd6cbe80; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:02:03: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7fe6fd45ab80; closed: 0>
+10:02:03: PM: INFO [conexion.py: 62] <cursor object at 0x7fe6fd45ab80; closed: 0>
+10:02:03: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:02:03: PM: DEBUG [conexion.py: 58] Conexion cerrada
+09:43:16: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7fbc1bc78d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:43:16: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7fbc1bbb6b80; closed: 0>
+09:43:16: PM: INFO [conexion.py: 62] <cursor object at 0x7fbc1bbb6b80; closed: 0>
+09:43:16: PM: DEBUG [conexion.py: 51] Cursor cerrado
+09:43:16: PM: DEBUG [conexion.py: 58] Conexion cerrada
+09:43:16: PM: DEBUG [personaDao.py: 14] b'SELECT * FROM persona ORDER BY id_persona'
+09:45:39: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f69b8d6cd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:45:39: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f69b8cacb80; closed: 0>
+09:45:39: PM: INFO [conexion.py: 62] <cursor object at 0x7f69b8cacb80; closed: 0>
+09:45:39: PM: DEBUG [personaDao.py: 14] b'SELECT * FROM persona ORDER BY id_persona'
+09:46:11: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7efd69603d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:46:11: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7efd69542b80; closed: 0>
+09:46:11: PM: INFO [conexion.py: 62] <cursor object at 0x7efd69542b80; closed: 0>
+09:46:11: PM: DEBUG [personaDao.py: 14] b'SELECT * FROM persona ORDER BY persona_id'
+09:46:12: PM: DEBUG [personaDao.py: 27] ID persona: 1, Nombre: Ivan, Apellido: Andrade, Email: ivanandrade@mail.com
+09:46:12: PM: DEBUG [personaDao.py: 27] ID persona: 2, Nombre: Gabo, Apellido: Andrade, Email: gaboandrade@mail.com
+09:46:12: PM: DEBUG [personaDao.py: 27] ID persona: 3, Nombre: Daniela, Apellido: Arrien, Email: danialeg@mail.com
+09:46:12: PM: DEBUG [personaDao.py: 27] ID persona: 4, Nombre: David, Apellido: Martinez, Email: davidmartinez@mail.com
+09:46:12: PM: DEBUG [personaDao.py: 27] ID persona: 5, Nombre: Alejandro, Apellido: Arrien, Email: alearrien@mail.com
+09:46:12: PM: DEBUG [personaDao.py: 27] ID persona: 6, Nombre: Alejandra, Apellido: Guerra, Email: aleguerra@mail.com
+09:46:12: PM: DEBUG [personaDao.py: 27] ID persona: 7, Nombre: Juan, Apellido: Villa, Email: juanvilla@mail.com
+09:46:12: PM: DEBUG [personaDao.py: 27] ID persona: 31, Nombre: Rocio, Apellido: Masner, Email: romasner@mail.com
+09:46:12: PM: DEBUG [personaDao.py: 27] ID persona: 32, Nombre: James, Apellido: Hetfield, Email: jhetfield@mail.com
+09:46:12: PM: DEBUG [personaDao.py: 27] ID persona: 34, Nombre: Gonzalo, Apellido: Biedma, Email: gbiedma@mail.com
+10:17:18: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7efc244bfd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:17:18: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7efc243ffb80; closed: 0>
+10:17:18: PM: INFO [conexion.py: 62] <cursor object at 0x7efc243ffb80; closed: 0>
+10:17:18: PM: DEBUG [personaDao.py: 31] b'INSERT INTO persona (nombre, apellido, email) VALUES (%s, %s, %s)'
+10:17:18: PM: DEBUG [personaDao.py: 32] Datos a ingresar: ID persona: None, Nombre: Florecia, Apellido: Andrade, Email: floandrade@mail.com
+10:17:18: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:17:18: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:17:18: PM: DEBUG [personaDao.py: 53] Registros insertados: 1
+10:28:56: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f137a27fd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:28:56: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f137a1c0b80; closed: 0>
+10:28:56: PM: INFO [conexion.py: 62] <cursor object at 0x7f137a1c0b80; closed: 0>
+10:28:56: PM: DEBUG [personaDao.py: 51] b'DELETE FROM persona WHERE persona_id = %s'
+10:28:56: PM: DEBUG [personaDao.py: 52] Datos a borrar: 35
+10:28:56: PM: ERROR [personaDao.py: 60] Error al borrar registro: name 'persona' is not defined
+10:28:56: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:28:56: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:28:56: PM: DEBUG [personaDao.py: 80] Registro eliminado: None
+10:32:06: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f054cacdd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:32:06: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f054ca0eb80; closed: 0>
+10:32:06: PM: INFO [conexion.py: 62] <cursor object at 0x7f054ca0eb80; closed: 0>
+10:32:06: PM: DEBUG [personaDao.py: 51] b'DELETE FROM persona WHERE persona_id = %s'
+10:32:06: PM: DEBUG [personaDao.py: 52] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+10:32:06: PM: ERROR [personaDao.py: 60] Error al borrar registro: 'method' object does not support indexing
+10:32:06: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:32:06: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:32:06: PM: DEBUG [personaDao.py: 80] Registro eliminado: None
+10:33:06: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f15dc968d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:33:06: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f15dc8a9b80; closed: 0>
+10:33:06: PM: INFO [conexion.py: 62] <cursor object at 0x7f15dc8a9b80; closed: 0>
+10:33:06: PM: DEBUG [personaDao.py: 51] b'DELETE FROM persona WHERE persona_id = %s'
+10:33:06: PM: DEBUG [personaDao.py: 52] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+10:33:06: PM: ERROR [personaDao.py: 60] Error al borrar registro: 'method' object does not support indexing
+10:33:06: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:33:06: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:33:06: PM: DEBUG [personaDao.py: 80] Registro eliminado: None
+09:33:07: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f49c6f5dd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:33:07: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f49c6e9eb80; closed: 0>
+09:33:07: PM: INFO [conexion.py: 62] <cursor object at 0x7f49c6e9eb80; closed: 0>
+09:33:07: PM: DEBUG [personaDao.py: 51] b'DELETE FROM persona WHERE persona_id = %s'
+09:33:07: PM: DEBUG [personaDao.py: 52] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+09:33:07: PM: ERROR [personaDao.py: 60] Error al borrar registro: 'method' object does not support indexing
+09:33:07: PM: DEBUG [conexion.py: 51] Cursor cerrado
+09:33:07: PM: DEBUG [conexion.py: 58] Conexion cerrada
+09:33:07: PM: DEBUG [personaDao.py: 80] Registro eliminado: None
+09:35:06: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f5ef4005d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:35:06: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f5ef3f46b80; closed: 0>
+09:35:06: PM: INFO [conexion.py: 62] <cursor object at 0x7f5ef3f46b80; closed: 0>
+09:35:06: PM: DEBUG [personaDao.py: 51] b'DELETE FROM persona WHERE persona_id = %s'
+09:35:06: PM: ERROR [personaDao.py: 60] Error al borrar registro: name 'persona_id' is not defined
+09:35:06: PM: DEBUG [conexion.py: 51] Cursor cerrado
+09:35:06: PM: DEBUG [conexion.py: 58] Conexion cerrada
+09:35:06: PM: DEBUG [personaDao.py: 80] Registro eliminado: None
+09:35:52: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7fc150acbd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:35:52: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7fc150a0cb80; closed: 0>
+09:35:52: PM: INFO [conexion.py: 62] <cursor object at 0x7fc150a0cb80; closed: 0>
+09:35:52: PM: DEBUG [personaDao.py: 51] b'DELETE FROM persona WHERE persona_id = %s'
+09:35:52: PM: DEBUG [personaDao.py: 52] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+09:35:52: PM: ERROR [personaDao.py: 60] Error al borrar registro: 'int' object does not support indexing
+09:35:52: PM: DEBUG [conexion.py: 51] Cursor cerrado
+09:35:52: PM: DEBUG [conexion.py: 58] Conexion cerrada
+09:35:52: PM: DEBUG [personaDao.py: 80] Registro eliminado: None
+09:37:24: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f80cf494d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:37:24: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f80cf3d5b80; closed: 0>
+09:37:24: PM: INFO [conexion.py: 62] <cursor object at 0x7f80cf3d5b80; closed: 0>
+09:37:24: PM: DEBUG [personaDao.py: 70] b'DELETE FROM persona WHERE persona_id = %s'
+09:37:24: PM: DEBUG [personaDao.py: 71] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+09:37:24: PM: ERROR [personaDao.py: 79] Error al borrar registro: 'int' object is not callable
+09:37:24: PM: DEBUG [conexion.py: 51] Cursor cerrado
+09:37:24: PM: DEBUG [conexion.py: 58] Conexion cerrada
+09:37:24: PM: DEBUG [personaDao.py: 99] Registro eliminado: None
+09:41:30: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f319d490d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:41:30: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f319d3d1b80; closed: 0>
+09:41:30: PM: INFO [conexion.py: 62] <cursor object at 0x7f319d3d1b80; closed: 0>
+09:41:30: PM: DEBUG [personaDao.py: 70] b'DELETE FROM persona WHERE persona_id = %s'
+09:41:30: PM: DEBUG [personaDao.py: 71] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+09:41:30: PM: ERROR [personaDao.py: 79] Error al borrar registro: 'int' object does not support indexing
+09:41:30: PM: DEBUG [conexion.py: 51] Cursor cerrado
+09:41:30: PM: DEBUG [conexion.py: 58] Conexion cerrada
+09:41:30: PM: DEBUG [personaDao.py: 99] Registro eliminado: None
+09:41:53: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7ff91a7bed50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:41:53: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7ff91a6ffb80; closed: 0>
+09:41:53: PM: INFO [conexion.py: 62] <cursor object at 0x7ff91a6ffb80; closed: 0>
+09:41:53: PM: DEBUG [personaDao.py: 70] b'DELETE FROM persona WHERE persona_id = %s'
+09:41:53: PM: DEBUG [personaDao.py: 71] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+09:41:53: PM: ERROR [personaDao.py: 79] Error al borrar registro: not all arguments converted during string formatting
+09:41:53: PM: DEBUG [conexion.py: 51] Cursor cerrado
+09:41:53: PM: DEBUG [conexion.py: 58] Conexion cerrada
+09:41:53: PM: DEBUG [personaDao.py: 99] Registro eliminado: None
+09:42:56: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f233b7c3d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:42:56: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f233b705b80; closed: 0>
+09:42:56: PM: INFO [conexion.py: 62] <cursor object at 0x7f233b705b80; closed: 0>
+09:42:56: PM: DEBUG [personaDao.py: 70] b'DELETE FROM persona WHERE persona_id = %s'
+09:42:56: PM: DEBUG [personaDao.py: 71] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+09:42:56: PM: ERROR [personaDao.py: 79] Error al borrar registro: 'int' object is not callable
+09:42:56: PM: DEBUG [conexion.py: 51] Cursor cerrado
+09:42:56: PM: DEBUG [conexion.py: 58] Conexion cerrada
+09:42:56: PM: DEBUG [personaDao.py: 99] Registro eliminado: None
+09:47:57: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f6d4bb9cd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:47:57: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f6d4bb43130; closed: 0>
+09:47:57: PM: INFO [conexion.py: 62] <cursor object at 0x7f6d4bb43130; closed: 0>
+09:47:57: PM: DEBUG [personaDao.py: 52] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+09:47:57: PM: DEBUG [personaDao.py: 53] Datos a actualizar: ID persona: 35, Nombre: Florencia, Apellido: Arrien, Email: florearrien@mail.com
+09:47:57: PM: ERROR [personaDao.py: 61] Error al actualizar registro: 'int' object is not callable
+09:47:57: PM: DEBUG [conexion.py: 51] Cursor cerrado
+09:47:57: PM: DEBUG [conexion.py: 58] Conexion cerrada
+09:47:57: PM: DEBUG [personaDao.py: 100] Registro actualizado: None
+09:57:18: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f7666968d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:57:18: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f766690f130; closed: 0>
+09:57:18: PM: INFO [conexion.py: 62] <cursor object at 0x7f766690f130; closed: 0>
+09:57:18: PM: DEBUG [personaDao.py: 52] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+09:57:18: PM: DEBUG [personaDao.py: 53] Datos a actualizar: ID persona: 35, Nombre: Florencia, Apellido: Arrien, Email: florearrien@mail.com
+09:57:18: PM: ERROR [personaDao.py: 61] Error al actualizar registro: 'int' object is not callable
+09:57:18: PM: DEBUG [conexion.py: 51] Cursor cerrado
+09:57:18: PM: DEBUG [conexion.py: 58] Conexion cerrada
+09:57:18: PM: DEBUG [personaDao.py: 100] Registro actualizado: None
+10:00:05: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f922b808d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:00:05: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f922b7af130; closed: 0>
+10:00:05: PM: INFO [conexion.py: 62] <cursor object at 0x7f922b7af130; closed: 0>
+10:00:05: PM: DEBUG [personaDao.py: 52] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+10:00:05: PM: DEBUG [personaDao.py: 53] Datos a actualizar: ID persona: 35, Nombre: Florencia, Apellido: Arrien, Email: florearrien@mail.com
+10:00:05: PM: ERROR [personaDao.py: 61] Error al actualizar registro: 'int' object is not callable
+10:00:05: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:00:05: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:00:05: PM: DEBUG [personaDao.py: 100] Registro actualizado: None
+10:01:06: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f87d5718d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:01:06: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f87d56bf130; closed: 0>
+10:01:06: PM: INFO [conexion.py: 62] <cursor object at 0x7f87d56bf130; closed: 0>
+10:01:06: PM: DEBUG [personaDao.py: 52] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+10:01:06: PM: DEBUG [personaDao.py: 53] Datos a actualizar: ID persona: 35, Nombre: Florencia, Apellido: Arrien, Email: florearrien@mail.com
+10:01:06: PM: ERROR [personaDao.py: 61] Error al actualizar registro: 'int' object is not callable
+10:01:06: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:01:06: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:01:06: PM: DEBUG [personaDao.py: 100] Registro actualizado: None
+10:01:30: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f377ee22d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:01:30: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f377edc9130; closed: 0>
+10:01:30: PM: INFO [conexion.py: 62] <cursor object at 0x7f377edc9130; closed: 0>
+10:01:30: PM: DEBUG [personaDao.py: 52] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+10:01:30: PM: DEBUG [personaDao.py: 53] Datos a actualizar: ID persona: 35, Nombre: Florencia, Apellido: Arrien, Email: florearrien@mail.com
+10:01:30: PM: ERROR [personaDao.py: 61] Error al actualizar registro: 'int' object is not callable
+10:01:30: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:01:30: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:01:30: PM: DEBUG [personaDao.py: 100] Registro actualizado: None
+10:05:04: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f7a4b4a1d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:05:04: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f7a4b448130; closed: 0>
+10:05:04: PM: INFO [conexion.py: 62] <cursor object at 0x7f7a4b448130; closed: 0>
+10:05:04: PM: DEBUG [personaDao.py: 52] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+10:05:04: PM: DEBUG [personaDao.py: 53] Datos a actualizar: ID persona: 35, Nombre: Florencia, Apellido: Arrien, Email: florearrien@mail.com
+10:05:04: PM: ERROR [personaDao.py: 61] Error al actualizar registro: can't adapt type 'method'
+10:05:04: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:05:04: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:05:04: PM: DEBUG [personaDao.py: 100] Registro actualizado: None
+10:05:29: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f4dc152fd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:05:29: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f4dc14d6130; closed: 0>
+10:05:29: PM: INFO [conexion.py: 62] <cursor object at 0x7f4dc14d6130; closed: 0>
+10:05:29: PM: DEBUG [personaDao.py: 52] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+10:05:29: PM: DEBUG [personaDao.py: 53] Datos a actualizar: ID persona: 35, Nombre: Florencia, Apellido: Arrien, Email: florearrien@mail.com
+10:05:29: PM: ERROR [personaDao.py: 61] Error al actualizar registro: can't adapt type 'method'
+10:05:29: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:05:29: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:05:29: PM: DEBUG [personaDao.py: 100] Registro actualizado: None
+10:06:37: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7fdfd3b85d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:06:37: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7fdfd3b2c130; closed: 0>
+10:06:37: PM: INFO [conexion.py: 62] <cursor object at 0x7fdfd3b2c130; closed: 0>
+10:06:37: PM: DEBUG [personaDao.py: 52] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+10:06:37: PM: DEBUG [personaDao.py: 53] Datos a actualizar: ID persona: 35, Nombre: Florencia, Apellido: Arrien, Email: florearrien@mail.com
+10:06:38: PM: ERROR [personaDao.py: 61] Error al actualizar registro: 'int' object is not callable
+10:06:38: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:06:38: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:06:38: PM: DEBUG [personaDao.py: 100] Registro actualizado: None
+10:07:43: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f5bcf51dd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:07:43: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f5bcf4c4130; closed: 0>
+10:07:43: PM: INFO [conexion.py: 62] <cursor object at 0x7f5bcf4c4130; closed: 0>
+10:07:43: PM: DEBUG [personaDao.py: 52] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+10:07:43: PM: DEBUG [personaDao.py: 53] Datos a actualizar: ID persona: 35, Nombre: Florencia, Apellido: Arrien, Email: florearrien@mail.com
+10:07:43: PM: ERROR [personaDao.py: 61] Error al actualizar registro: 'int' object is not callable
+10:07:43: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:07:43: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:07:43: PM: DEBUG [personaDao.py: 100] Registro actualizado: None
+10:09:34: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f079e5bed50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:09:34: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f079e565130; closed: 0>
+10:09:34: PM: INFO [conexion.py: 62] <cursor object at 0x7f079e565130; closed: 0>
+10:09:34: PM: DEBUG [personaDao.py: 52] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+10:09:34: PM: DEBUG [personaDao.py: 53] Datos a actualizar: Nombre: Florencia, Apellido: Arrien, Email: florearrien@mail.com
+10:09:34: PM: ERROR [personaDao.py: 61] Error al actualizar registro: 'int' object is not callable
+10:09:34: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:09:34: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:09:34: PM: DEBUG [personaDao.py: 100] Registro actualizado: None
+10:14:36: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f3928219d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:14:36: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f39281c0130; closed: 0>
+10:14:36: PM: INFO [conexion.py: 62] <cursor object at 0x7f39281c0130; closed: 0>
+10:14:36: PM: DEBUG [personaDao.py: 52] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+10:14:36: PM: DEBUG [personaDao.py: 53] Datos a actualizar: ID persona: 35, Nombre: Florencia, Apellido: Arrien, Email: florearrien@mail.com
+10:14:36: PM: ERROR [personaDao.py: 61] Error al actualizar registro: 'int' object is not callable
+10:14:36: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:14:36: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:14:36: PM: DEBUG [personaDao.py: 100] Registro actualizado: None
+10:22:39: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7fc93e023d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:22:39: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7fc93dfca130; closed: 0>
+10:22:39: PM: INFO [conexion.py: 62] <cursor object at 0x7fc93dfca130; closed: 0>
+10:22:39: PM: DEBUG [personaDao.py: 52] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+10:22:39: PM: DEBUG [personaDao.py: 53] Datos a actualizar: ID persona: 35, Nombre: Florencia, Apellido: Arrien, Email: florearrien@mail.com
+10:22:39: PM: ERROR [personaDao.py: 61] Error al actualizar registro: 'int' object is not callable
+10:22:39: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:22:39: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:22:39: PM: DEBUG [personaDao.py: 100] Registro actualizado: None
+10:25:12: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7fd9e7341d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:25:12: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7fd9e72e8130; closed: 0>
+10:25:12: PM: INFO [conexion.py: 62] <cursor object at 0x7fd9e72e8130; closed: 0>
+10:26:07: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f2169697d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:26:07: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f216963e130; closed: 0>
+10:26:07: PM: INFO [conexion.py: 62] <cursor object at 0x7f216963e130; closed: 0>
+10:26:23: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7fa0a32fbd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:26:23: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7fa0a32a2130; closed: 0>
+10:26:23: PM: INFO [conexion.py: 62] <cursor object at 0x7fa0a32a2130; closed: 0>
+10:26:23: PM: DEBUG [personaDao.py: 52] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+10:26:23: PM: DEBUG [personaDao.py: 53] Datos a actualizar: ID persona: 35, Nombre: Florencia, Apellido: Arrien, Email: florearrien@mail.com
+10:26:23: PM: ERROR [personaDao.py: 61] Error al actualizar registro: 'int' object is not callable
+10:26:23: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:26:23: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:26:23: PM: DEBUG [personaDao.py: 100] Registro actualizado: None
+10:37:08: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f42ac27ed50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:37:08: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f42ac225130; closed: 0>
+10:37:08: PM: INFO [conexion.py: 62] <cursor object at 0x7f42ac225130; closed: 0>
+10:49:44: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f8ac2b18d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:49:44: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f8ac2abe130; closed: 0>
+10:49:44: PM: INFO [conexion.py: 62] <cursor object at 0x7f8ac2abe130; closed: 0>
+10:49:44: PM: DEBUG [personaDao.py: 52] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+10:49:44: PM: DEBUG [personaDao.py: 53] Datos a actualizar: ID persona: 35, Nombre: Florencia, Apellido: Arrien, Email: florearrien@mail.com
+10:49:44: PM: ERROR [personaDao.py: 61] Error al actualizar registro: can't adapt type 'method'
+10:49:44: PM: DEBUG [conexion.py: 51] Cursor cerrado
+10:49:44: PM: DEBUG [conexion.py: 58] Conexion cerrada
+10:49:44: PM: DEBUG [personaDao.py: 100] Registro actualizado: None
+10:59:40: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f9a67d43d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+10:59:40: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f9a67ce9130; closed: 0>
+10:59:40: PM: INFO [conexion.py: 62] <cursor object at 0x7f9a67ce9130; closed: 0>
+11:00:10: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f7412fb7d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:00:10: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f7412f60130; closed: 0>
+11:00:10: PM: INFO [conexion.py: 62] <cursor object at 0x7f7412f60130; closed: 0>
+11:00:10: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:00:10: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:00:10: PM: ERROR [personaDao.py: 80] Error al borrar registro: 'Persona' object has no attribute 'get_persona_id'
+11:00:10: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:00:10: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:00:10: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:00:29: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f43459e6d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:00:29: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f434598c130; closed: 0>
+11:00:29: PM: INFO [conexion.py: 62] <cursor object at 0x7f434598c130; closed: 0>
+11:00:29: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:00:29: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:00:29: PM: ERROR [personaDao.py: 80] Error al borrar registro: can't adapt type 'method'
+11:00:29: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:00:29: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:00:29: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:00:54: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f761f91dd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:00:54: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f761f8c5130; closed: 0>
+11:00:54: PM: INFO [conexion.py: 62] <cursor object at 0x7f761f8c5130; closed: 0>
+11:00:54: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:00:54: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:00:54: PM: ERROR [personaDao.py: 80] Error al borrar registro: 'method' object does not support indexing
+11:00:54: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:00:54: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:00:54: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:01:33: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7fd9a1230d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:01:33: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7fd9a11d6130; closed: 0>
+11:01:33: PM: INFO [conexion.py: 62] <cursor object at 0x7fd9a11d6130; closed: 0>
+11:01:33: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:01:33: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:01:33: PM: ERROR [personaDao.py: 80] Error al borrar registro: 'int' object does not support indexing
+11:01:33: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:01:33: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:01:33: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:02:13: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f70a106dd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:02:13: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f70a1013130; closed: 0>
+11:02:13: PM: INFO [conexion.py: 62] <cursor object at 0x7f70a1013130; closed: 0>
+11:02:13: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:02:13: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:02:13: PM: ERROR [personaDao.py: 80] Error al borrar registro: can't adapt type 'method'
+11:02:13: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:02:13: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:02:13: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:02:25: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f759a792d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:02:25: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f759a738130; closed: 0>
+11:02:25: PM: INFO [conexion.py: 62] <cursor object at 0x7f759a738130; closed: 0>
+11:02:25: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:02:25: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:02:25: PM: ERROR [personaDao.py: 80] Error al borrar registro: 'int' object is not callable
+11:02:25: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:02:25: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:02:25: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:02:34: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f76c6bead50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:02:34: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f76c6b90130; closed: 0>
+11:02:34: PM: INFO [conexion.py: 62] <cursor object at 0x7f76c6b90130; closed: 0>
+11:02:34: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:02:34: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:02:34: PM: ERROR [personaDao.py: 80] Error al borrar registro: 'int' object does not support indexing
+11:02:34: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:02:34: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:02:34: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:17:39: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f433d2f1d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:17:39: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f433d299130; closed: 0>
+11:17:39: PM: INFO [conexion.py: 62] <cursor object at 0x7f433d299130; closed: 0>
+11:17:39: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:17:39: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:17:39: PM: ERROR [personaDao.py: 80] Error al borrar registro: 'Persona' object has no attribute 'persona'
+11:17:39: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:17:39: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:17:39: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:17:56: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7ff80c59bd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:17:56: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7ff80c543130; closed: 0>
+11:17:56: PM: INFO [conexion.py: 62] <cursor object at 0x7ff80c543130; closed: 0>
+11:17:56: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:17:56: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:17:56: PM: ERROR [personaDao.py: 80] Error al borrar registro: 'int' object is not callable
+11:17:56: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:17:56: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:17:56: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:18:53: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f025fc19d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:18:53: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f025fbc1130; closed: 0>
+11:18:53: PM: INFO [conexion.py: 62] <cursor object at 0x7f025fbc1130; closed: 0>
+11:18:53: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:18:53: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:18:53: PM: ERROR [personaDao.py: 80] Error al borrar registro: syntax error at or near "%"
+LINE 1: DELETE FROM persona WHERE persona_id = %s
+                                               ^
+
+11:18:53: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:18:53: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:18:53: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:19:10: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7fc19b243d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:19:10: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7fc19b1eb130; closed: 0>
+11:19:10: PM: INFO [conexion.py: 62] <cursor object at 0x7fc19b1eb130; closed: 0>
+11:19:10: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:19:10: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:19:10: PM: ERROR [personaDao.py: 80] Error al borrar registro: 'int' object is not callable
+11:19:10: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:19:10: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:19:10: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:19:27: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f0f6328bd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:19:27: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f0f63233130; closed: 0>
+11:19:27: PM: INFO [conexion.py: 62] <cursor object at 0x7f0f63233130; closed: 0>
+11:19:27: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:19:27: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:19:27: PM: ERROR [personaDao.py: 80] Error al borrar registro: syntax error at or near "%"
+LINE 1: DELETE FROM persona WHERE persona_id = %s
+                                               ^
+
+11:19:27: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:19:27: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:19:27: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:19:36: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7fdac4371d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:19:36: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7fdac431b130; closed: 0>
+11:19:36: PM: INFO [conexion.py: 62] <cursor object at 0x7fdac431b130; closed: 0>
+11:19:36: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:19:36: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:19:36: PM: ERROR [personaDao.py: 80] Error al borrar registro: syntax error at or near "%"
+LINE 1: DELETE FROM persona WHERE persona_id = %s
+                                               ^
+
+11:19:36: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:19:36: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:19:36: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:26:29: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7fb1a0d6cd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:26:29: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7fb1a0d13130; closed: 0>
+11:26:29: PM: INFO [conexion.py: 62] <cursor object at 0x7fb1a0d13130; closed: 0>
+11:26:29: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:26:29: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:26:29: PM: ERROR [personaDao.py: 79] Error al borrar registro: name 'valor' is not defined
+11:26:29: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:26:29: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:26:29: PM: DEBUG [personaDao.py: 104] Registro actualizado: None
+11:26:50: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f7c42249d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:26:50: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f7c421f0130; closed: 0>
+11:26:50: PM: INFO [conexion.py: 62] <cursor object at 0x7f7c421f0130; closed: 0>
+11:26:50: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:26:50: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:26:50: PM: ERROR [personaDao.py: 79] Error al borrar registro: 'int' object does not support indexing
+11:26:50: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:26:50: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:26:50: PM: DEBUG [personaDao.py: 104] Registro actualizado: None
+11:26:59: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7fc012c35d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:26:59: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7fc012bdf130; closed: 0>
+11:26:59: PM: INFO [conexion.py: 62] <cursor object at 0x7fc012bdf130; closed: 0>
+11:26:59: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:26:59: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:26:59: PM: ERROR [personaDao.py: 79] Error al borrar registro: 'int' object does not support indexing
+11:26:59: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:26:59: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:26:59: PM: DEBUG [personaDao.py: 104] Registro actualizado: None
+11:27:32: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f18fbc69d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:27:32: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f18fbc10130; closed: 0>
+11:27:32: PM: INFO [conexion.py: 62] <cursor object at 0x7f18fbc10130; closed: 0>
+11:27:32: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:27:32: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:27:32: PM: ERROR [personaDao.py: 80] Error al borrar registro: 'int' object is not callable
+11:27:32: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:27:32: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:27:32: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:28:09: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f213e920d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:28:09: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f213e8c7130; closed: 0>
+11:28:09: PM: INFO [conexion.py: 62] <cursor object at 0x7f213e8c7130; closed: 0>
+11:28:09: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:28:09: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 35, Nombre: None, Apellido: None, Email: None
+11:28:09: PM: ERROR [personaDao.py: 80] Error al borrar registro: 'int' object is not callable
+11:28:09: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:28:09: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:28:09: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:29:31: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7fd5e4fdad50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:29:31: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7fd5e4f81130; closed: 0>
+11:29:31: PM: INFO [conexion.py: 62] <cursor object at 0x7fd5e4f81130; closed: 0>
+11:30:21: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f13ac64fd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:30:21: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f13ac5f6130; closed: 0>
+11:30:21: PM: INFO [conexion.py: 62] <cursor object at 0x7f13ac5f6130; closed: 0>
+11:30:21: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:30:21: PM: DEBUG [personaDao.py: 72] Datos a borrar: 35
+11:30:21: PM: ERROR [personaDao.py: 80] Error al borrar registro: 'int' object is not callable
+11:30:21: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:30:21: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:30:21: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:30:35: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f3f99dc1d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:30:35: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f3f99d68130; closed: 0>
+11:30:35: PM: INFO [conexion.py: 62] <cursor object at 0x7f3f99d68130; closed: 0>
+11:30:35: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:30:35: PM: DEBUG [personaDao.py: 72] Datos a borrar: 35
+11:30:35: PM: ERROR [personaDao.py: 80] Error al borrar registro: 'int' object is not callable
+11:30:35: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:30:35: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:30:35: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:33:03: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f0e71e4fd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:33:03: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f0e71df6130; closed: 0>
+11:33:03: PM: INFO [conexion.py: 62] <cursor object at 0x7f0e71df6130; closed: 0>
+11:33:03: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:33:03: PM: DEBUG [personaDao.py: 72] Datos a borrar: 32
+11:33:03: PM: ERROR [personaDao.py: 80] Error al borrar registro: 'int' object is not callable
+11:33:03: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:33:03: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:33:03: PM: DEBUG [personaDao.py: 105] Registro actualizado: None
+11:34:37: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7fdedba55d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:34:37: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7fdedb9fc130; closed: 0>
+11:34:37: PM: INFO [conexion.py: 62] <cursor object at 0x7fdedb9fc130; closed: 0>
+11:34:37: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:34:37: PM: DEBUG [personaDao.py: 72] Datos a borrar: 32
+11:34:37: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:34:37: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:34:37: PM: DEBUG [personaDao.py: 105] Registro actualizado: 0
+11:35:19: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f5c8cd47d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:35:19: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f5c8ccee130; closed: 0>
+11:35:19: PM: INFO [conexion.py: 62] <cursor object at 0x7f5c8ccee130; closed: 0>
+11:35:19: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:35:19: PM: DEBUG [personaDao.py: 72] Datos a borrar: 31
+11:35:19: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:35:19: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:35:19: PM: DEBUG [personaDao.py: 105] Registro borrado: 1
+11:37:23: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f4c4ebcfd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:37:23: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f4c4eb76130; closed: 0>
+11:37:23: PM: INFO [conexion.py: 62] <cursor object at 0x7f4c4eb76130; closed: 0>
+11:38:20: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7ff5872d0d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:38:20: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7ff587277130; closed: 0>
+11:38:20: PM: INFO [conexion.py: 62] <cursor object at 0x7ff587277130; closed: 0>
+11:38:20: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:38:20: PM: ERROR [personaDao.py: 80] Error al borrar registro: name 'param' is not defined
+11:38:20: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:38:20: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:38:20: PM: DEBUG [personaDao.py: 105] Registro borrado: None
+11:38:38: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f4ea44e6d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:38:38: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f4ea448d130; closed: 0>
+11:38:38: PM: INFO [conexion.py: 62] <cursor object at 0x7f4ea448d130; closed: 0>
+11:38:38: PM: DEBUG [personaDao.py: 71] b'DELETE FROM persona WHERE persona_id = %s'
+11:38:38: PM: DEBUG [personaDao.py: 72] Datos a borrar: ID persona: 7, Nombre: None, Apellido: None, Email: None
+11:38:39: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:38:39: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:38:39: PM: DEBUG [personaDao.py: 105] Registro borrado: 1
+11:41:19: PM: DEBUG [conexion.py: 24] Conexion exitosa: <connection object at 0x7f245b4ecd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+11:41:19: PM: DEBUG [conexion.py: 38] Se abrio el cursor con exito: <cursor object at 0x7f245b493130; closed: 0>
+11:41:19: PM: INFO [conexion.py: 62] <cursor object at 0x7f245b493130; closed: 0>
+11:41:19: PM: DEBUG [personaDao.py: 52] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+11:41:19: PM: DEBUG [personaDao.py: 53] Datos a actualizar: ID persona: 2, Nombre: Alejandro, Apellido: Andrade, Email: ale@mail.com
+11:41:19: PM: DEBUG [conexion.py: 51] Cursor cerrado
+11:41:19: PM: DEBUG [conexion.py: 58] Conexion cerrada
+11:41:19: PM: DEBUG [personaDao.py: 100] Registro actualizado: 1
+09:19:56: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7ff9bc254cd0>
+09:19:56: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7ff9bb0113d0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:21:13: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f08a16e2cd0>
+09:21:13: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f08a049f3d0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:21:13: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f08a04b2af0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:22:11: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f5196df9cd0>
+09:22:11: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f5195bb63d0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:22:11: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f5195bc8af0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:24:38: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f2c6b243cd0>
+09:24:38: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f2c6a0003d0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:24:38: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f2c6a013af0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:24:38: PM: DEBUG [conexion.py: 44] Regresamos la conexion al pool: <connection object at 0x7f2c6a0003d0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:24:38: PM: DEBUG [conexion.py: 45] Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7f2c6b243cd0>
+09:25:19: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f50eb012b80>
+09:25:19: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f50e9dd03d0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:25:19: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f50e9de2af0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:25:19: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f50e9de2c20; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:25:19: PM: DEBUG [conexion.py: 44] Regresamos la conexion al pool: <connection object at 0x7f50e9dd03d0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:25:19: PM: DEBUG [conexion.py: 45] Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7f50eb012b80>
+09:26:04: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f2b1eb39b80>
+09:26:04: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f2b1d8f63d0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:26:04: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f2b1d908af0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:26:04: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f2b1d908c20; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:26:04: PM: DEBUG [conexion.py: 44] Regresamos la conexion al pool: <connection object at 0x7f2b1d8f63d0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:26:04: PM: DEBUG [conexion.py: 45] Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7f2b1eb39b80>
+09:26:04: PM: DEBUG [conexion.py: 44] Regresamos la conexion al pool: <connection object at 0x7f2b1d908c20; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 1>
+09:26:04: PM: DEBUG [conexion.py: 45] Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7f2b1eb39b80>
+09:28:37: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fedb5792b80>
+09:28:37: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7fedb45503d0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:28:37: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7fedb4563af0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:28:37: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7fedb4563c20; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:28:37: PM: DEBUG [conexion.py: 44] Regresamos la conexion al pool: <connection object at 0x7fedb45503d0; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:28:37: PM: DEBUG [conexion.py: 45] Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7fedb5792b80>
+09:28:37: PM: DEBUG [conexion.py: 44] Regresamos la conexion al pool: <connection object at 0x7fedb4563c20; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 1>
+09:28:37: PM: DEBUG [conexion.py: 45] Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7fedb5792b80>
+09:28:37: PM: DEBUG [conexion.py: 50] Cerramos todas las conexiones del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7fedb5792b80>
+09:29:46: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f2ff3034e20>
+09:29:46: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f2ff1d4f630; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:29:46: PM: DEBUG [cursor_del_pool.py: 13] Inicio de metodo with: <connection object at 0x7f2ff1d4f630; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:29:46: PM: DEBUG [cursor_del_pool.py: 19] Se ejecuta metodo exit
+09:29:46: PM: DEBUG [cursor_del_pool.py: 27] Commit de la transaccion
+09:29:46: PM: DEBUG [conexion.py: 44] Regresamos la conexion al pool: <connection object at 0x7f2ff1d4f630; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:29:46: PM: DEBUG [conexion.py: 45] Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7f2ff3034e20>
+09:31:29: PM: DEBUG [cursor_del_pool.py: 11] Inicio de metodo with
+09:31:29: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f84175a7e20>
+09:31:29: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f84162c3630; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:31:29: PM: DEBUG [cursor_del_pool.py: 19] Se ejecuta metodo exit
+09:31:29: PM: DEBUG [cursor_del_pool.py: 27] Commit de la transaccion
+09:31:29: PM: DEBUG [conexion.py: 44] Regresamos la conexion al pool: <connection object at 0x7f84162c3630; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:31:29: PM: DEBUG [conexion.py: 45] Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7f84175a7e20>
+09:43:04: PM: DEBUG [cursor_del_pool.py: 11] Inicio de metodo with
+09:43:04: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f979233b2e0>
+09:43:04: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f979233cd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:43:04: PM: DEBUG [personaDao.py: 17] b'SELECT * FROM persona ORDER BY persona_id'
+09:43:04: PM: DEBUG [cursor_del_pool.py: 19] Se ejecuta metodo exit
+09:43:04: PM: DEBUG [cursor_del_pool.py: 27] Commit de la transaccion
+09:43:04: PM: DEBUG [conexion.py: 44] Regresamos la conexion al pool: <connection object at 0x7f979233cd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:43:04: PM: DEBUG [conexion.py: 45] Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7f979233b2e0>
+09:43:04: PM: DEBUG [personaDao.py: 58] ID persona: 1, Nombre: Ivan, Apellido: Andrade, Email: ivanandrade@mail.com
+09:43:04: PM: DEBUG [personaDao.py: 58] ID persona: 2, Nombre: Alejandro, Apellido: Andrade, Email: ale@mail.com
+09:43:04: PM: DEBUG [personaDao.py: 58] ID persona: 3, Nombre: Daniela, Apellido: Arrien, Email: danialeg@mail.com
+09:43:04: PM: DEBUG [personaDao.py: 58] ID persona: 4, Nombre: David, Apellido: Martinez, Email: davidmartinez@mail.com
+09:43:04: PM: DEBUG [personaDao.py: 58] ID persona: 5, Nombre: Alejandro, Apellido: Arrien, Email: alearrien@mail.com
+09:43:04: PM: DEBUG [personaDao.py: 58] ID persona: 6, Nombre: Alejandra, Apellido: Guerra, Email: aleguerra@mail.com
+09:44:23: PM: DEBUG [cursor_del_pool.py: 11] Inicio de metodo with
+09:44:23: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fd61bcce100>
+09:44:23: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7fd61bb9ed50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:44:23: PM: DEBUG [personaDao.py: 30] b'INSERT INTO persona (nombre, apellido, email) VALUES (%s, %s, %s)'
+09:44:23: PM: DEBUG [personaDao.py: 31] Datos a ingresar: ID persona: None, Nombre: Florecia, Apellido: Andrade, Email: floandrade@mail.com
+09:44:23: PM: DEBUG [cursor_del_pool.py: 19] Se ejecuta metodo exit
+09:44:23: PM: DEBUG [cursor_del_pool.py: 27] Commit de la transaccion
+09:44:23: PM: DEBUG [conexion.py: 44] Regresamos la conexion al pool: <connection object at 0x7fd61bb9ed50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:44:23: PM: DEBUG [conexion.py: 45] Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7fd61bcce100>
+09:44:23: PM: DEBUG [personaDao.py: 63] Registros insertados: 1
+09:44:45: PM: DEBUG [cursor_del_pool.py: 11] Inicio de metodo with
+09:44:45: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f428d6262e0>
+09:44:45: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f428d628d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:44:45: PM: DEBUG [personaDao.py: 17] b'SELECT * FROM persona ORDER BY persona_id'
+09:44:45: PM: DEBUG [cursor_del_pool.py: 19] Se ejecuta metodo exit
+09:44:45: PM: DEBUG [cursor_del_pool.py: 27] Commit de la transaccion
+09:44:45: PM: DEBUG [conexion.py: 44] Regresamos la conexion al pool: <connection object at 0x7f428d628d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:44:45: PM: DEBUG [conexion.py: 45] Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7f428d6262e0>
+09:44:45: PM: DEBUG [personaDao.py: 58] ID persona: 1, Nombre: Ivan, Apellido: Andrade, Email: ivanandrade@mail.com
+09:44:45: PM: DEBUG [personaDao.py: 58] ID persona: 2, Nombre: Alejandro, Apellido: Andrade, Email: ale@mail.com
+09:44:45: PM: DEBUG [personaDao.py: 58] ID persona: 3, Nombre: Daniela, Apellido: Arrien, Email: danialeg@mail.com
+09:44:45: PM: DEBUG [personaDao.py: 58] ID persona: 4, Nombre: David, Apellido: Martinez, Email: davidmartinez@mail.com
+09:44:45: PM: DEBUG [personaDao.py: 58] ID persona: 5, Nombre: Alejandro, Apellido: Arrien, Email: alearrien@mail.com
+09:44:45: PM: DEBUG [personaDao.py: 58] ID persona: 6, Nombre: Alejandra, Apellido: Guerra, Email: aleguerra@mail.com
+09:44:45: PM: DEBUG [personaDao.py: 58] ID persona: 36, Nombre: Florecia, Apellido: Andrade, Email: floandrade@mail.com
+09:45:28: PM: DEBUG [cursor_del_pool.py: 11] Inicio de metodo with
+09:45:28: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f09e1857100>
+09:45:28: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f09e1727d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:45:28: PM: DEBUG [personaDao.py: 39] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE persona_id=%s'
+09:45:28: PM: DEBUG [personaDao.py: 40] Datos a actualizar: ID persona: 36, Nombre: Flore, Apellido: Andrade, Email: flore@mail.com
+09:45:28: PM: DEBUG [cursor_del_pool.py: 19] Se ejecuta metodo exit
+09:45:28: PM: DEBUG [cursor_del_pool.py: 27] Commit de la transaccion
+09:45:28: PM: DEBUG [conexion.py: 44] Regresamos la conexion al pool: <connection object at 0x7f09e1727d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:45:28: PM: DEBUG [conexion.py: 45] Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7f09e1857100>
+09:45:28: PM: DEBUG [personaDao.py: 68] Registro actualizado: 1
+09:45:48: PM: DEBUG [cursor_del_pool.py: 11] Inicio de metodo with
+09:45:48: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fdc01c7b2e0>
+09:45:48: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7fdc01c7cd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:45:48: PM: DEBUG [personaDao.py: 17] b'SELECT * FROM persona ORDER BY persona_id'
+09:45:48: PM: DEBUG [cursor_del_pool.py: 19] Se ejecuta metodo exit
+09:45:48: PM: DEBUG [cursor_del_pool.py: 27] Commit de la transaccion
+09:45:48: PM: DEBUG [conexion.py: 44] Regresamos la conexion al pool: <connection object at 0x7fdc01c7cd50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:45:48: PM: DEBUG [conexion.py: 45] Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7fdc01c7b2e0>
+09:45:48: PM: DEBUG [personaDao.py: 58] ID persona: 1, Nombre: Ivan, Apellido: Andrade, Email: ivanandrade@mail.com
+09:45:48: PM: DEBUG [personaDao.py: 58] ID persona: 2, Nombre: Alejandro, Apellido: Andrade, Email: ale@mail.com
+09:45:48: PM: DEBUG [personaDao.py: 58] ID persona: 3, Nombre: Daniela, Apellido: Arrien, Email: danialeg@mail.com
+09:45:48: PM: DEBUG [personaDao.py: 58] ID persona: 4, Nombre: David, Apellido: Martinez, Email: davidmartinez@mail.com
+09:45:48: PM: DEBUG [personaDao.py: 58] ID persona: 5, Nombre: Alejandro, Apellido: Arrien, Email: alearrien@mail.com
+09:45:48: PM: DEBUG [personaDao.py: 58] ID persona: 6, Nombre: Alejandra, Apellido: Guerra, Email: aleguerra@mail.com
+09:45:48: PM: DEBUG [personaDao.py: 58] ID persona: 36, Nombre: Flore, Apellido: Andrade, Email: flore@mail.com
+09:46:10: PM: DEBUG [cursor_del_pool.py: 11] Inicio de metodo with
+09:46:10: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7f8723f77100>
+09:46:10: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7f8723e47d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:46:10: PM: DEBUG [personaDao.py: 48] b'DELETE FROM persona WHERE persona_id = %s'
+09:46:10: PM: DEBUG [personaDao.py: 49] Datos a borrar: ID persona: 36, Nombre: None, Apellido: None, Email: None
+09:46:10: PM: DEBUG [cursor_del_pool.py: 19] Se ejecuta metodo exit
+09:46:10: PM: DEBUG [cursor_del_pool.py: 27] Commit de la transaccion
+09:46:10: PM: DEBUG [conexion.py: 44] Regresamos la conexion al pool: <connection object at 0x7f8723e47d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:46:10: PM: DEBUG [conexion.py: 45] Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7f8723f77100>
+09:46:10: PM: DEBUG [personaDao.py: 73] Registro borrado: 1
+09:46:37: PM: DEBUG [cursor_del_pool.py: 11] Inicio de metodo with
+09:46:37: PM: DEBUG [conexion.py: 27] Creacion de pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x7fa1584582e0>
+09:46:37: PM: DEBUG [conexion.py: 38] Conexion obtenida del pool: <connection object at 0x7fa158459d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:46:37: PM: DEBUG [personaDao.py: 17] b'SELECT * FROM persona ORDER BY persona_id'
+09:46:37: PM: DEBUG [cursor_del_pool.py: 19] Se ejecuta metodo exit
+09:46:37: PM: DEBUG [cursor_del_pool.py: 27] Commit de la transaccion
+09:46:37: PM: DEBUG [conexion.py: 44] Regresamos la conexion al pool: <connection object at 0x7fa158459d50; dsn: 'user=postgres password=xxx dbname=testdb host=127.0.0.1 port=5432', closed: 0>
+09:46:37: PM: DEBUG [conexion.py: 45] Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7fa1584582e0>
+09:46:37: PM: DEBUG [personaDao.py: 58] ID persona: 1, Nombre: Ivan, Apellido: Andrade, Email: ivanandrade@mail.com
+09:46:37: PM: DEBUG [personaDao.py: 58] ID persona: 2, Nombre: Alejandro, Apellido: Andrade, Email: ale@mail.com
+09:46:37: PM: DEBUG [personaDao.py: 58] ID persona: 3, Nombre: Daniela, Apellido: Arrien, Email: danialeg@mail.com
+09:46:37: PM: DEBUG [personaDao.py: 58] ID persona: 4, Nombre: David, Apellido: Martinez, Email: davidmartinez@mail.com
+09:46:37: PM: DEBUG [personaDao.py: 58] ID persona: 5, Nombre: Alejandro, Apellido: Arrien, Email: alearrien@mail.com
+09:46:37: PM: DEBUG [personaDao.py: 58] ID persona: 6, Nombre: Alejandra, Apellido: Guerra, Email: aleguerra@mail.com
